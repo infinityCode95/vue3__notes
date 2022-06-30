@@ -1,0 +1,39 @@
+@import './fonts.scss';
+@import './reset.scss';
+@import './menu.scss';
+@import './about.scss';
+@import './home.scss';
+@import './form.scss';
+@import './notes.scss';
+
+body {
+   font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	background-color: #f2eded;
+}
+
+.wrapper {
+	min-height: 100vh;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+.main {
+   margin-top: 100px;
+   flex: 1 1 auto;
+}
+
+[class*="__container"] {
+	max-width: 1300px;
+	margin: 0px auto;
+	padding: 0px 15px;
+}
+
+.title {
+	font-size: 2rem;
+	font-weight: 600;
+	text-align: center;
+	margin: 25vh;
+}
+
+

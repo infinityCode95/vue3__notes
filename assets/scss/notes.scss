@@ -1,0 +1,48 @@
+.notes {
+
+   // .notes__list
+
+   &__list {
+      padding: 40px 0;
+   }
+}
+
+.note {
+
+   // .note__item
+
+   &__item {
+      width: 600px;
+      padding: 18px 20px;
+      margin: 0px 0px 20px 0px;
+      border-radius: 14px;
+      background-color: #fff;
+      transition: all 0.25s cubic-bezier(0.02, 0.01, 0.47, 1);
+      box-shadow: 0 30px 30px rgba(0, 0, 0, 0.02);
+      cursor: pointer;
+
+      &:hover {
+         box-shadow: 0 30px 30px rgba(0, 0, 0, 0.04);
+         transform: translate(0, -6px);
+         transition-delay: 0s !important;         
+      }
+   }
+
+   // .note__body
+
+   &__body {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   // .note__icon
+
+   &__icon {
+      color: #a54fdb;
+   }
+}
+
+
+
+
